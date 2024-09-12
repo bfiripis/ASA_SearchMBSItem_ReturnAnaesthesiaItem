@@ -5,6 +5,8 @@ library(DT)
 
 # Assuming result_list_updated and ItemMap are already loaded in the environment
 # If not, you need to load them here
+ItemMap <- read.csv("https://raw.githubusercontent.com/bfiripis/ASA_SearchMBSItem_ReturnAnaesthesiaItem/main/ItemMap.csv", header = TRUE)
+result_list_updated <- read.
 # procedure_info should be a dataframe with columns: ProcedureItemNumber, Description, ScheduleFee
 
 ui <- fluidPage(
